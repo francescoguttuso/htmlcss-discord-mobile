@@ -11,53 +11,88 @@ body {
     
 }
 
+.title {
+    font-family: Sigmar;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3em;
+    line-height: 35px;
+
+}
 h1 {
     font-family: Sigmar;
     color: white;
     text-transform: uppercase;
+    text-align: center;
+    margin: 3em;
+
 }
+
 p {
     font-family: DM Sans;
-    color: white
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -75px;
+    
 }
 
 .button-white {
     background-color: #ffffff;
     position: relative;
     padding: 1em;
-    border-radius: 0.25em;
-    margin-top: 1em;
+    border-radius: 0.75em;
+    margin-top: -3em;
     min-height: 20px;
     margin-left: 3em;
     margin-right: 3em;
+    text-align: center;
 }
 
 .button-blue {
     background-color: #5865f2;
     position: relative;
     padding: 1em;
-    border-radius: 0.25em;
+    border-radius: 0.75em;
     margin-top: 1em;
     min-height: 20px;
     margin-left: 3em;
     margin-right: 3em;
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
 
 img {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 2em;
+    height: auto;    
 }
 
 .card {
     background-color: #5d64d1;
     border-radius: 1em;
-    margin-top: 2em
-}
+    margin:2em;
+    text-align: left;
+    
 
 video {
     max-width: 100%;
     height: auto;
-    border-radius: 1em;
-    width: 430px;
+    border-radius: 2em;
+    width: 400px;
+    position: relative;
+    top: -42px;
+    left: 22px;
+}
+
+.text-card {
+    font-family: DM Sans;
+    color: white;
+    font-size: large;
+    text-align: center;
+    position: relative;
+    top: -75px;
+    left: 1px;
+    
 }
