@@ -74,6 +74,7 @@ img {
     border-radius: 1em;
     margin:2em;
     text-align: left;
+    position: relative;
     
 
 video {
