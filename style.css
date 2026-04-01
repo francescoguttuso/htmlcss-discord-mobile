@@ -1,0 +1,53 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.png)
+    width: 512px;
+    background-size: content
+    
+}
+
+h1 {
+    font-family: Sigmar;
+    color: white;
+}
+p {
+    font-family: DM Sans;
+    color: white
+}
+
+.button-white {
+    background-color: #ffffff;
+    position: relative;
+    padding: 1em;
+    border-radius: 0.25em;
+    margin-top: 1em;
+    min-height: 20px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.button-blue {
+    background-color: #5865f2;
+    position: relative;
+    padding: 1em;
+    border-radius: 0.25em;
+    margin-top: 1em;
+    min-height: 20px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: #5d64d1;
+    border-radius: 1em;
+}
